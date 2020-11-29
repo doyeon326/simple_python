@@ -1,0 +1,25 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    ///Users/Tony/Documents/python3.9/helloworld.py
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "run python file",
+            "type": "shell",
+            "command": "/Users/Tony/Documents/python3.9/python_env/bin/python helloworld.py",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "options": {
+                "env": {
+                    "PYTHONIOENCODING": "UTF-8"
+                }
+            },
+            "problemMatcher": [
+                "$tsc"
+            ]
+        }
+    ]
+}
