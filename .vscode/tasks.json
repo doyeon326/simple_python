@@ -7,7 +7,7 @@
         {
             "label": "run python file",
             "type": "shell",
-            "command": "/Users/Tony/Documents/python3.9/python_env/bin/python helloworld.py",
+            "command": "/Users/Tony/Documents/python3.9/python_env/bin/python quiz01.py",
             "group": {
                 "kind": "build",
                 "isDefault": true

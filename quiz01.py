@@ -20,6 +20,7 @@ print(str1[4:])
 # 6. 다음 문자열을 거꾸로 출력해보세요. : "Strawberry"
 str2= "Strawberry"
 print(list(reversed(str2)))
+print(str2[::-1])
 
 # 7. 다음 문자열에서 '-'를 제거 후 출력하세요. : "010-7777-9999"
 str3 = "010-7777-9999"
