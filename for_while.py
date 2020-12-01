@@ -85,4 +85,5 @@ lt = ["1", 2 ,5, True, 4.3, complex(4)]
 for v in lt:
     if type(v) is float:
         continue
-    print("타입: ", type(v))
+    print("타입: ", type(v)) #건너뜀
+    
