@@ -67,3 +67,22 @@ for n in name:
         print(n.lower())
     else:
         print(n.upper())
+
+#break
+numbers = [14,3,4,5,10,24,17,2,37,15,34,36,38]
+for num in numbers:
+    if num == 33:
+        print("found : 33!")
+        break
+    else:
+        print("not found: 33!")
+else:
+    print("Not found 33.....") #결국 다 뒤졌는데 못찾았어
+
+#continue
+
+lt = ["1", 2 ,5, True, 4.3, complex(4)]
+for v in lt:
+    if type(v) is float:
+        continue
+    print("타입: ", type(v))
