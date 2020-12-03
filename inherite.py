@@ -52,3 +52,29 @@ print(model2.show())
 #Parent Method call
 model3 = BezCar("350s","sedan","silver")
 print(model3.show())
+
+# Inheritance Info
+print(BmwCar.mro()) #모든 상속관계 출력
+print(BezCar.mro()) #상속관계를 리스트 형태로 반환
+
+# 예제2 
+# 다중 상속
+
+class X(object):
+    pass
+
+class Y():
+    pass
+
+class Z():
+    pass
+
+class A(X,Y):
+    pass
+class B(Y,Z):
+    pass
+class M(B, A, Z):
+    pass
+
+print(M.mro())
+# 하지만 상속은 많이 하지 않는게 좋다. 왜냐, 코드의 복잡도 상승
